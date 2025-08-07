@@ -6,15 +6,15 @@ This repository contains a modular and extensible implementation of a **5-stage 
 
 ## 📌 Project Highlights
 
-- ✅ 5-stage pipeline: IF, ID, EX, MEM, WB
-- ✅ Custom instructions implemented:
-  - `btransm` – Bit Transpose with Mask (primary novel instruction)
-  - `rotmix` – Rotate and Mix (XOR after rotate, cryptographic-style)
-- ✅ Fully modular design
-- ✅ Each module is independently verified with testbenches
-- ✅ Waveform results captured with QuestaSim
-- ✅ Clean folder structure for easy navigation and reuse
-- 🔜 Planned peripherals: UART, Timer, GPIO
+-  5-stage pipeline: IF, ID, EX, MEM, WB
+-  Custom instructions implemented:
+   - `btransm` – Bit Transpose with Mask (primary novel instruction)
+   - `rotmix` – Rotate and Mix (XOR after rotate, cryptographic-style)
+-  Fully modular design
+-  Each module is independently verified with testbenches
+-  Waveform results captured with QuestaSim
+-  Clean folder structure for easy navigation and reuse
+-  🔜 Planned peripherals: UART, Timer, GPIO
 
 ---
 
@@ -32,7 +32,7 @@ Pipeline registers:
 - `if_id_pipeline_reg`
 - `id_ex_pipeline_reg`
 - `ex_mem_pipeline_reg`
-- `mem_wb_pipeline_reg` 🔜
+- `mem_wb_pipeline_reg` 
 
 ---
 
